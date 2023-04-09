@@ -11,11 +11,11 @@ urllib.request.urlretrieve(
 model = load_model('model.h5')
 
 st.set_page_config(
-    page_title="CSE3505 MRI Classifier",
+    page_title="TARP MRI Classifier",
     page_icon=":brain:",
     initial_sidebar_state="expanded",
     menu_items={
-        'About': "CSE3505 J Component Final Review - MRI Brain Tumor Detection by Siddharth Suresh, Harsh Deshwal, Kanishka Ghosh",
+        'About': "TARP Final Review - MRI Brain Tumor Detection by Aryan Arora, Harsh Deshwal, Kanishka Ghosh",
 
     }
 )
@@ -77,12 +77,12 @@ def load_image():
 
 
 def main():
-    st.header('CSE3505 J Component Final Review')
+    st.header('TARP Final Review')
     st.title('MRI Brain Tumor Detection')
     st.subheader('Presented by')
     st.markdown('''
     - Harsh Deshwal 20BPS1145
-    - Siddharth Suresh 20BPS1042
+    - Aryan Arora 20BPS1044
     - Kanishka Ghosh 20BPS1125
     ''')
     st.header('Upload the scan to test')
