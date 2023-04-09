@@ -7,7 +7,7 @@ from keras.applications.vgg16 import preprocess_input
 import urllib.request
 
 urllib.request.urlretrieve(
-        'https://github.com/siddhsuresh/CSE3505-MRI-Classifier/raw/main/app/model.h5', 'model.h5')
+        'https://github.com/KanishkaGhosh21/BRAIN-TUMOR-DETECTION-USING-MRI-SCANS/blob/main/app/model.h5?raw=true', 'model.h5')
 model = load_model('model.h5')
 
 st.set_page_config(
