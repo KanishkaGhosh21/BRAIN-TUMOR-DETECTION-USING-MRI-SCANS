@@ -172,7 +172,7 @@ def main():
     st.subheader('Presented by')
     st.markdown('''
     - Harsh Deshwal 20BPS1145
-    - Aryan Arora 20BPS1044
+    - Aryan Arora 20BPS1144
     - Kanishka Ghosh 20BPS1125
     ''')
     st.header('Upload the scan to test')
@@ -202,7 +202,7 @@ def main():
         ''', unsafe_allow_html=True)
         if prob > 0.5:
             st.markdown(f'''
-            ##### The model predicts that the image <span style="color:#F24C4C">**has a tumor**</span> with a probability of **{prob}**
+            ##### The model predicts that the image <span style="color:#F24C4C">**has a tumor**</span>
             ''', unsafe_allow_html=True)
             # Select random number from 80 to 100 and assign it to a severity variable
             severity = np.random.randint(80, 100)
