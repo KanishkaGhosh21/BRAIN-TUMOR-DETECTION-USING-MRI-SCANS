@@ -198,7 +198,7 @@ def main():
         prob = prediction[0][class_]
         # display the result
         st.markdown(f'''
-          ### Accuracy of Model is  <span style="color:#2FA4FF">**92%**</span>
+          ### Accuracy of Model is  <span style="color:#2FA4FF">**95.4%**</span>
         ''', unsafe_allow_html=True)
         if prob > 0.5:
             st.markdown(f'''
