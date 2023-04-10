@@ -5,21 +5,12 @@ import imutils
 from keras.models import load_model
 from keras.applications.vgg16 import preprocess_input
 import urllib.request
-# cv2 is the Python Version of OpenCV
-import cv2
-# matplotlib is used for displaying images
-import matplotlib.pyplot as plt
-# numpy is used for matrix manipulations
-import numpy as np
-
 
 def highlight():
     # Read the color image
     orig_img = cv2.imread("test.jpg", 1)  # 1 indicates color image
     # OpenCV uses BGR while Matplotlib uses RGB format
     # Display the color image with matplotlib
-    plt.imshow(cv2.cvtColor(orig_img, cv2.COLOR_BGR2RGB))
-
     gray_img = cv2.cvtColor(orig_img, cv2.COLOR_BGR2GRAY)
 
     # To remove salt and pepper noise
