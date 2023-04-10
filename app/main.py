@@ -72,7 +72,7 @@ def highlight():
 
     cv2.watershed(copy_img, marker)
 
-    # st.image(marker)
+    st.image(copy_img)
 
     copy_img[marker == -1] = (0, 0, 255)
     cv2.imwrite('img.jpg', copy_img)
