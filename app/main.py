@@ -170,7 +170,7 @@ def add_bg_from_url():
          f"""
          <style>
          .stApp {{
-             background-image: url("https://images.unsplash.com/photo-1542281286-9e0a16bb7366");
+             background-image: url("https://pixabay.com/images/id-6841384/");
              background-attachment: fixed;
              background-size: cover
          }}
