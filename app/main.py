@@ -179,7 +179,7 @@ def add_bg_from_url():
          unsafe_allow_html=True
      )
 
-add_bg_from_url() 
+# add_bg_from_url() 
 
 def main():
     page_bg_img = '''
