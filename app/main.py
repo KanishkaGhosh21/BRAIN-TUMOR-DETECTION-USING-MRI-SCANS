@@ -191,7 +191,7 @@ def main():
     </style>
     '''
     st.markdown(page_bg_img, unsafe_allow_html=True)
-    add_bg_from_url() 
+#     add_bg_from_url() 
     
     st.header('TARP Final Review')
     st.title('MRI Brain Tumor Detection')
